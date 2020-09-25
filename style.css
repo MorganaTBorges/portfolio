@@ -8,6 +8,7 @@
 
 .main-nav.dark {
   box-shadow: none;
+  background-color: black!important;
 }
 
 .full-wrapper {
@@ -38,6 +39,13 @@
   list-style: none;
   padding: 0;
   background: none;
+  display: flex;
+  white-space: pre;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
 }
 
 .main-nav {
