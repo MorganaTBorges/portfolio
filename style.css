@@ -2,6 +2,10 @@
   background: transparent !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-nav.js-transparent {
   transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
@@ -165,4 +169,13 @@ li {
 
 .btn-ghost:hover {
   opacity: 1;
+}
+
+section {
+  position: relative;
+}
+
+#portfolio {
+  margin-top: 3000px;
+  color: white;
 }
